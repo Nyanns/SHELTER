@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+        sans-serif;
+    color: rgb(212, 211, 211);
+}
+
+header {
+    align-items: center;
+}
+
+.showcase .logo {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    z-index: 100;
+    display: flex;
+}
+
+.logo a {
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-link {
+    font-size: smaller;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin: 100px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #5f5f79;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.section {
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+
+.container .section:nth-child(1) {
+    background: url(img/shelter.jpg);
+    background-size: auto;
+    background-position: center;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(2) {
+    background: url(img/popopo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(2) .box1 {
+    box-sizing: border-box;
+    border-radius: 12px;
+    position: absolute;
+    left: 60px;
+    top: 100px;
+    height: 65vh;
+    width: 193vh;
+    opacity: 0.5;
+    background: whitesmoke;
+}
+
+.container .section:nth-child(2) iframe {
+    position: absolute;
+    z-index: 1000;
+    height: 50vh;
+    width: 170vh;
+    top: 145px;
+    left: 135px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.container .section:nth-child(2) iframe:hover {
+    opacity: 3;
+}
+
+.container .section:nth-child(3) {
+    background: url(img/japan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(3) img {
+    position: absolute;
+    z-index: 1000;
+    top: 115px;
+    left: 90px;
+    height: 60vh;
+}
+
+.container .section:nth-child(3) .my {
+    position: absolute;
+    z-index: 1000;
+    top: 150px;
+    left: 450px;
+    color: #263238;
+}
+
+.container .section:nth-child(3) .my p {
+    color: #263238;
+}
+
+.container .section:nth-child(3) .my p a {
+    color: #fffb08;
+}
+
+.container .section:nth-child(3) .form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    top: 160px;
+    right: 180px;
+}
+
+.container .section:nth-child(3) .box2 {
+    box-sizing: border-box;
+    border-radius: 12px;
+    position: absolute;
+    left: 60px;
+    top: 100px;
+    height: 65vh;
+    width: 193vh;
+    opacity: 0.5;
+    background: rgb(255, 251, 251);
+    background: linear-gradient(90deg, rgb(204, 204, 204) 0%, rgb(252, 237, 237) 50%, rgb(134, 134, 134) 100%);
+}
+
+input {
+    display: block;
+    border: 1px solid #f0f0f5;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    background: white;
+    width: 300px;
+    box-shadow: 2px 2px 10px #E8EAF6;
+    color: #263238;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+textarea {
+    display: block;
+    border: 1px solid #f0f0f5;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    background: white;
+    width: 300px;
+    min-height: 125px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #f0f0f5;
+    color: #263238;
+}
+
+.btn {
+    color: #fbff22;
+    font-weight: 700;
+    border: 0px solid #EEEEEE;
+    padding: 10px 40px;
+    background: #000000;
+    width: 300px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+}
+
+.container .section .content1 {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    max-width: 700px;
+}
+
+.container .section .content1 h2 {
+    text-transform: uppercase;
+}
+
+.container .section .content2 {
+    position: absolute;
+    bottom: 45px;
+    left: 60px;
+    max-width: 700px;
+}
+
+.container .section .content3 {
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    max-width: 700px;
+}
+
+.social {
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    filter: invert(1);
+    margin-right: 30px;
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.social li a:hover {
+    transform: scale(0.6) translateY(-15px);
+}
