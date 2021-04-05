@@ -34,10 +34,7 @@
                 </div>
             </div>
             <div class="section">
-                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/fzQ6gRAEoy0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
+                <iframe width="auto" height="auto" src="https://www.youtube.com/embed/fzQ6gRAEoy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
                 <div class="box1"></div>
                 <div class="content2">
@@ -108,9 +105,8 @@
                 <form method="get" action="proses.php" id="form" class="form">
                     <input placeholder="Name *" type="text" tabindex="1" class="form__field" name="Name" id="Name">
                     <input placeholder="Email " type="text" tabindex="1" class="form__field" name="Email" id="Email">
-                    <textarea placeholder="message " name="message " id="message "></textarea>
-                    <button name="submit" type="submit" class="btn btn--primary btn--inside uppercase" id="submit"
-                        value="submit">Send</button>
+                    <textarea placeholder="message" name="message" id="message"></textarea>
+                    <button name="submit" type="submit" class="btn btn--primary btn--inside uppercase" id="submit" value="submit">Send</button>
                 </form>
                 <div class="box3"></div>
                 <div class="content3">

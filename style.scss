@@ -31,7 +31,7 @@ header {
 .nav-links {
     position: absolute;
     top: 30px;
-    left: 30%;
+    left: 10%;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ header {
     cursor: pointer;
     text-decoration: none;
     color: #fff;
-    margin: 100px;
+    margin-left: 200px;
     text-transform: uppercase;
     transition: 0.5s;
 }
@@ -108,13 +108,71 @@ header {
     opacity: 3;
 }
 
+.container .section:nth-child(3) .UwU {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .section:nth-child(3) .UwU table {
+    cursor: pointer;
+    height: 65vh;
+    width: 193vh;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.container .section:nth-child(3) .UwU th,
+td {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(0, 0, 0);
+}
+
+.container .section:nth-child(3) .UwU th {
+    text-align: center;
+}
+
+.container .section:nth-child(3) .UwU td {
+    text-align: center;
+}
+
+.container .section:nth-child(3) .UwU thead th {
+    background-color: #6d8dff;
+    background: linear-gradient(45deg, #ccf8f8, #5363f7);
+    opacity: 0.7;
+}
+
+.container .section:nth-child(3) .UwU table:hover {
+    opacity: 1;
+}
+
+.container .section:nth-child(3) .UwU table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.container .section:nth-child(3) .UwU table tbody td:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 .container .section:nth-child(3) {
+    background: url(img/rrrr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .section:nth-child(4) {
     background: url(img/japan.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
-.container .section:nth-child(3) img {
+.container .section:nth-child(4) img {
     position: absolute;
     z-index: 1000;
     top: 115px;
@@ -122,7 +180,7 @@ header {
     height: 60vh;
 }
 
-.container .section:nth-child(3) .my {
+.container .section:nth-child(4) .my {
     position: absolute;
     z-index: 1000;
     top: 150px;
@@ -130,15 +188,15 @@ header {
     color: #263238;
 }
 
-.container .section:nth-child(3) .my p {
+.container .section:nth-child(4) .my p {
     color: #263238;
 }
 
-.container .section:nth-child(3) .my p a {
+.container .section:nth-child(4) .my p a {
     color: #fffb08;
 }
 
-.container .section:nth-child(3) .form {
+.container .section:nth-child(4) .form {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -147,7 +205,7 @@ header {
     right: 180px;
 }
 
-.container .section:nth-child(3) .box2 {
+.container .section:nth-child(4) .box3 {
     box-sizing: border-box;
     border-radius: 12px;
     position: absolute;
